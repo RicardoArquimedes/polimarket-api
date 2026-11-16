@@ -1,0 +1,395 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PoliMarket.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/rrhh/autorizar/{idVendedor}": {
+      "post": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "parameters": [
+          {
+            "name": "idVendedor",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fechaVencimiento",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/rrhh/autorizado/{idVendedor}": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "parameters": [
+          {
+            "name": "idVendedor",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/rrhh/empleado/{idEmpleado}": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "parameters": [
+          {
+            "name": "idEmpleado",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ventas/clientes": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ventas": {
+      "post": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearVentaRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ventas/historial/{idCliente}": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "parameters": [
+          {
+            "name": "idCliente",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ventas/por-entregar": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/bodega/productos": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/bodega/disponibilidad/{idProducto}": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "parameters": [
+          {
+            "name": "idProducto",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/bodega/por-reabastecer": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/bodega/reabastecer": {
+      "post": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "parameters": [
+          {
+            "name": "idProducto",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cantidad",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/bodega/entrada/{idOrden}": {
+      "post": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "parameters": [
+          {
+            "name": "idOrden",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/entregas/programar": {
+      "post": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProgramarEntregaRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/entregas/registrar/{idEntrega}": {
+      "post": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "parameters": [
+          {
+            "name": "idEntrega",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/entregas/estado/{idEntrega}": {
+      "get": {
+        "tags": [
+          "PoliMarket.Api"
+        ],
+        "parameters": [
+          {
+            "name": "idEntrega",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CrearVentaRequest": {
+        "type": "object",
+        "properties": {
+          "idVendedor": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCliente": {
+            "type": "string",
+            "nullable": true
+          },
+          "detalles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DetalleVenta"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DetalleVenta": {
+        "type": "object",
+        "properties": {
+          "idProducto": {
+            "type": "string",
+            "nullable": true
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "precioUnitario": {
+            "type": "number",
+            "format": "double"
+          },
+          "subtotal": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProgramarEntregaRequest": {
+        "type": "object",
+        "properties": {
+          "idVenta": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaProgramada": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "direccionEntrega": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

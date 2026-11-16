@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "IdkhDsaaiQfYzLajaLs/HtNAMoQLP9HGRjQCPfcryUU=",
+  "Source": "PoliMarket.Api",
+  "BasePath": "_content/PoliMarket.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,11 @@
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\bin\Debug\net8.0\PoliMarket.Domain.deps.json
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\bin\Debug\net8.0\PoliMarket.Domain.dll
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\bin\Debug\net8.0\PoliMarket.Domain.pdb
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\obj\Debug\net8.0\PoliMarket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\obj\Debug\net8.0\PoliMarket.Domain.AssemblyInfoInputs.cache
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\obj\Debug\net8.0\PoliMarket.Domain.AssemblyInfo.cs
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\obj\Debug\net8.0\PoliMarket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\obj\Debug\net8.0\PoliMarket.Domain.dll
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\obj\Debug\net8.0\refint\PoliMarket.Domain.dll
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\obj\Debug\net8.0\PoliMarket.Domain.pdb
+C:\Users\germa\Downloads\PoliMarket_Backend_CSharp\PoliMarket\PoliMarket.Domain\obj\Debug\net8.0\ref\PoliMarket.Domain.dll

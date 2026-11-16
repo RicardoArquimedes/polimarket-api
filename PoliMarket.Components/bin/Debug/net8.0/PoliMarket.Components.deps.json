@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PoliMarket.Components/1.0.0": {
+        "dependencies": {
+          "PoliMarket.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PoliMarket.Components.dll": {}
+        }
+      },
+      "PoliMarket.Domain/1.0.0": {
+        "runtime": {
+          "PoliMarket.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PoliMarket.Components/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PoliMarket.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
