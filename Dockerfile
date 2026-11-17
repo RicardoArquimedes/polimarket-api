@@ -15,7 +15,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/publish .
 
-ENV ASPNETCORE_URLS=http://0.0.0.0:8080
 EXPOSE 8080
 
-ENTRYPOINT ["dotnet", "PoliMarket.Api.dll"]
+# Render inyecta PORT en tiempo de ejecucion (por defecto 10000); en local, sin -e PORT, usa 8080.
+ENTRYPOINT ["/bin/sh", "-c", "exec dotnet PoliMarket.Api.dll --urls http://0.0.0.0:${PORT:-8080}"]

@@ -2,3 +2,5 @@
 **/obj
 .git
 *.sln.docstates
+**/__pycache__
+**/node_modules
