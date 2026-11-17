@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -482,42 +482,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\germa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/arquimedes/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\germa\\Downloads\\PoliMarket_Backend_CSharp\\PoliMarket\\PoliMarket.Api\\PoliMarket.Api.csproj",
+      "projectUniqueName": "/Users/arquimedes/projects/Actividad2/PoliMarket.Api/PoliMarket.Api.csproj",
       "projectName": "PoliMarket.Api",
-      "projectPath": "C:\\Users\\germa\\Downloads\\PoliMarket_Backend_CSharp\\PoliMarket\\PoliMarket.Api\\PoliMarket.Api.csproj",
-      "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\germa\\Downloads\\PoliMarket_Backend_CSharp\\PoliMarket\\PoliMarket.Api\\obj\\",
+      "projectPath": "/Users/arquimedes/projects/Actividad2/PoliMarket.Api/PoliMarket.Api.csproj",
+      "packagesPath": "/Users/arquimedes/.nuget/packages/",
+      "outputPath": "/Users/arquimedes/projects/Actividad2/PoliMarket.Api/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/arquimedes/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\germa\\Downloads\\PoliMarket_Backend_CSharp\\PoliMarket\\PoliMarket.Components\\PoliMarket.Components.csproj": {
-              "projectPath": "C:\\Users\\germa\\Downloads\\PoliMarket_Backend_CSharp\\PoliMarket\\PoliMarket.Components\\PoliMarket.Components.csproj"
+            "/Users/arquimedes/projects/Actividad2/PoliMarket.Components/PoliMarket.Components.csproj": {
+              "projectPath": "/Users/arquimedes/projects/Actividad2/PoliMarket.Components/PoliMarket.Components.csproj"
             },
-            "C:\\Users\\germa\\Downloads\\PoliMarket_Backend_CSharp\\PoliMarket\\PoliMarket.Domain\\PoliMarket.Domain.csproj": {
-              "projectPath": "C:\\Users\\germa\\Downloads\\PoliMarket_Backend_CSharp\\PoliMarket\\PoliMarket.Domain\\PoliMarket.Domain.csproj"
+            "/Users/arquimedes/projects/Actividad2/PoliMarket.Domain/PoliMarket.Domain.csproj": {
+              "projectPath": "/Users/arquimedes/projects/Actividad2/PoliMarket.Domain/PoliMarket.Domain.csproj"
             }
           }
         }
@@ -532,10 +526,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "11.0.100"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Swashbuckle.AspNetCore": {
@@ -562,7 +557,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/11.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

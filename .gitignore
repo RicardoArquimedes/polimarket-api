@@ -1,0 +1,27 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+## Node / React (Vite) - PoliMarket-Clientes/cliente-ventas-react
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+!.env.example
+
+## Python - PoliMarket-Clientes/cliente-operaciones-python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+## macOS / editores
+.DS_Store
+.vscode/
+.idea/
